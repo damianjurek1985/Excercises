@@ -1,7 +1,0 @@
-text
-//commend 1
-other text //commend2 //commend3
-    //commend4
-    //commend5
-next text
-and other next text
