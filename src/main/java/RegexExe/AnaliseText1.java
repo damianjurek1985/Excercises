@@ -1,6 +1,4 @@
-package ExeWithRegex;
-
-import com.sun.scenario.effect.impl.sw.java.JSWColorAdjustPeer;
+package RegexExe;
 
 import java.util.Scanner;
 

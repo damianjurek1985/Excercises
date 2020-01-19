@@ -1,4 +1,4 @@
-package ExeWithRegex;
+package RegexExe;
 
 import java.util.Scanner;
 

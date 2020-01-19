@@ -1,4 +1,4 @@
-package ExeWithRegex;
+package RegexExe;
 
 import java.io.File;
 import java.io.FileNotFoundException;

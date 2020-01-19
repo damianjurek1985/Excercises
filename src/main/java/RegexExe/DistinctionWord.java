@@ -1,6 +1,5 @@
-package ExeWithRegex;
+package RegexExe;
 
-import javax.sound.midi.Soundbank;
 import java.util.regex.Pattern;
 
 public class DistinctionWord {

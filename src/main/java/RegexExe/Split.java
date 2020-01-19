@@ -1,4 +1,4 @@
-package ExeWithRegex;
+package RegexExe;
 
 public class Split {
 }
