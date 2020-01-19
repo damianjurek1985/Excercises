@@ -1,0 +1,12 @@
+IBM
+ul. 1
+Apple
+ul. 2
+Orange
+ul. 3
+Oracle
+ul. Opolska 4
+Sunset
+ul. State street
+Lot
+ul. Airport 50
