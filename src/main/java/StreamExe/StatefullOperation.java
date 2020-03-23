@@ -29,7 +29,7 @@ public class StatefullOperation {
                     .mapToInt(n -> n.intValue()).sum();
             System.out.println(sum);
         }
-        //leniwość strumieni :(przetwarzanie elementów po metodzie kończącej strumien np.
+        //leniwość strumieni (przetwarzanie elementów po metodzie kończącej strumien np.
         // forech,count,allMatch,collect
         IntStream numbersStream = IntStream.range(0, 8);
         System.out.println("Przed");
