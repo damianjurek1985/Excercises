@@ -1,0 +1,129 @@
+==========================================================
+2020-04-02T08:49:00+02:00
+Actual page: https://someLink/tlk/app/#/campaign-management/campaigns
+Found 8 accessibility violations:
+1) Elements must only use allowed ARIA attributes: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-attr?application=axeAPI
+  a) [.ReactVirtualized__Grid]
+    Fix any of the following:
+      ARIA attribute is not allowed: aria-readonly="true"
+
+
+2) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg[xmlns="http\:\/\/www\.w3\.org\/2000\/svg"]]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+3) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > i]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > i]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [#messages > .tlk-notifications-button__icon]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [#tasks > .tlk-notifications-button__icon]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  f) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [#lastVisited > .tlk-notifications-button__icon]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  h) [#favourites > .tlk-notifications-button__icon]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  i) [.tlk9]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.36 (foreground color: #ffffff, background color: #40c057, font size: 10.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  j) [.ReactVirtualized__Table__headerColumn.ReactVirtualized__Table__headerMultiline[role="columnheader"]:nth-child(2) > div > .tlk-table-view__select-container > .tlk-table-view__select-field > .tlk-table-view__select-value.tlk-table-view__select-value--placeholder]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  k) [.ReactVirtualized__Table__headerColumn.ReactVirtualized__Table__headerMultiline[role="columnheader"]:nth-child(3) > div > .tlk-table-view__select-container > .tlk-table-view__select-field > .tlk-table-view__select-value.tlk-table-view__select-value--placeholder]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+4) IDs used in ARIA and labels must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id-aria?application=axeAPI
+  a) [.ReactVirtualized__Table__headerColumn.ReactVirtualized__Table__headerMultiline[role="columnheader"]:nth-child(1) > div > .tlk-table-view__filter-container > .tlk-table-view__filter-field > .mdl-textfield.mdl-js-textfield.tlk-dropdown__input-border > .mdl-textfield__input]
+    Fix any of the following:
+      Document has multiple elements referenced with ARIA with the same id attribute: textfield-
+
+
+5) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [.tlk-search-input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [.ReactVirtualized__Table__headerColumn.ReactVirtualized__Table__headerMultiline[role="columnheader"]:nth-child(1) > div > .tlk-table-view__filter-container > .tlk-table-view__filter-field > .mdl-textfield.mdl-js-textfield.tlk-dropdown__input-border > .mdl-textfield__input]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  c) [.ReactVirtualized__Table__headerColumn.ReactVirtualized__Table__headerMultiline[role="columnheader"]:nth-child(4) > div > .tlk-table-view__filter-container > .tlk-table-view__filter-field > .mdl-textfield.mdl-js-textfield.tlk-dropdown__input-border > .mdl-textfield__input]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+6) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+7) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+8) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

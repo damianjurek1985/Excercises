@@ -1,0 +1,1593 @@
+==========================================================
+2020-04-02T08:47:50+02:00
+Actual page: https://someLink/tlk/app/#/source
+Found 10 accessibility violations:
+1) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+2) Checkbox inputs with the same name attribute value must be part of a group: https://dequeuniversity.com/rules/axe/3.1/checkboxgroup?application=axeAPI
+  a) [#tlkPage, #tkSearch, input[data-value="\31 232_100"]]
+    Fix any of the following:
+      All elements with the name "selection" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+3) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [#messages > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  e) [#tasks > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  f) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [#lastVisited > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  h) [#favourites > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  i) [#tlkPage, .tlk_footer]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  j) [#tlkPage, #tkSearch, #submitbutton]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.32 (foreground color: #556c67, background color: #dee2e6, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  k) [#tlkPage, #tkSearch, #projects-link > div]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.83 (foreground color: #17cca8, background color: #f2f2f2, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  l) [#tlkPage, #tkSearch, #actions__user-settings > div]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.83 (foreground color: #17cca8, background color: #f2f2f2, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  m) [#tlkPage, #tkSearch, .action-menu-title]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.09 (foreground color: #c4ddd8, background color: #dee2e6, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  n) [#tlkPage, #tkSearch, .save-results]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.09 (foreground color: #c4ddd8, background color: #dee2e6, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  o) [#tlkPage, #tkSearch, .compare-candidates]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.09 (foreground color: #c4ddd8, background color: #dee2e6, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  p) [#tlkPage, #tkSearch, .save-as]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.09 (foreground color: #c4ddd8, background color: #dee2e6, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  q) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(1) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  r) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(2) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  s) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(3) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  t) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(4) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  u) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(5) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  v) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(6) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  w) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(6) > .result-header.ui-helper-clearfix > .result-header-container > .tags > .tag]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.32 (foreground color: #556c67, background color: #dee2e6, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  x) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(7) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  y) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(7) > .result-header.ui-helper-clearfix > .result-header-container > .tags > .tag]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.32 (foreground color: #556c67, background color: #dee2e6, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  z) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(8) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aa) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(9) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ab) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(9) > .result-header.ui-helper-clearfix > .result-header-container > .tags > .tag]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.32 (foreground color: #556c67, background color: #dee2e6, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ac) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(10) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ad) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(10) > .result-header.ui-helper-clearfix > .result-header-container > .tags > .tag]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.32 (foreground color: #556c67, background color: #dee2e6, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ae) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(11) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  af) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(12) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ag) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(13) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ah) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(14) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ai) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(15) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aj) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(16) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ak) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(17) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  al) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(18) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  am) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(19) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  an) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(20) > .result-header.ui-helper-clearfix > .result-header-container > .result-header-title > .field-name.highlighted.value]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+4) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) [#tlkPage]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [#tlkPage, #tkSearch]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [#tlkPage, #tkSearch, #tab-domain_talentlink > a[href="javascript:;"] > img]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [#tlkPage, #tkSearch, img[src$="linkedin.png"]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) [#tlkPage, #tkSearch, img[src$="xing.png"]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  d) [#tlkPage, #tkSearch, img[src$="stackoverflow.png"]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  e) [#tlkPage, #tkSearch, img[src$="github.png"]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  f) [#tlkPage, #tkSearch, img[src$="viadeo.png"]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  g) [#tlkPage, #tkSearch, img[src$="careerbuilder.png"]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+6) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [#tlkPage, #tkSearch, input[name="radiogroup-documentdate"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  c) [#tlkPage, #tkSearch, input[name="radiogroup-documentdate"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  d) [#tlkPage, #tkSearch, input[name="radiogroup-documentdate"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  e) [#tlkPage, #tkSearch, .undefined]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  f) [#tlkPage, #tkSearch, input[name="radiogroup-projectid"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  g) [#tlkPage, #tkSearch, input[name="radiogroup-projectid"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  h) [#tlkPage, #tkSearch, input[name="radiogroup-projectid"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  i) [#tlkPage, #tkSearch, #facet-lastjobtitle > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > input[name=""][aria-autocomplete="list"][value=""]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  j) [#tlkPage, #tkSearch, input[name="radiogroup-lastjobtitle"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  k) [#tlkPage, #tkSearch, input[name="radiogroup-lastjobtitle"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  l) [#tlkPage, #tkSearch, input[name="radiogroup-lastjobtitle"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  m) [#tlkPage, #tkSearch, input[name="city_location_input"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  n) [#tlkPage, #tkSearch, input[placeholder=""]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  o) [#tlkPage, #tkSearch, input[name="radiogroup-city"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  p) [#tlkPage, #tkSearch, input[name="radiogroup-city"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  q) [#tlkPage, #tkSearch, input[name="radiogroup-city"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  r) [#tlkPage, #tkSearch, input[name="radiogroup-country"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  s) [#tlkPage, #tkSearch, input[name="radiogroup-country"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  t) [#tlkPage, #tkSearch, input[name="radiogroup-country"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  u) [#tlkPage, #tkSearch, #facet-jobtitlesonlyrecent > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > input[name=""][aria-autocomplete="list"][value=""]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  v) [#tlkPage, #tkSearch, input[name="radiogroup-jobtitlesonlyrecent"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  w) [#tlkPage, #tkSearch, input[name="radiogroup-jobtitlesonlyrecent"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  x) [#tlkPage, #tkSearch, input[name="radiogroup-jobtitlesonlyrecent"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  y) [#tlkPage, #tkSearch, input[name="radiogroup-experienceyears"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  z) [#tlkPage, #tkSearch, input[name="radiogroup-experienceyears"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  aa) [#tlkPage, #tkSearch, input[name="radiogroup-experienceyears"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ab) [#tlkPage, #tkSearch, #facet-lastemployer > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > .text[type="text"][autocomplete="off"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ac) [#tlkPage, #tkSearch, input[name="radiogroup-lastemployer"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ad) [#tlkPage, #tkSearch, input[name="radiogroup-lastemployer"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ae) [#tlkPage, #tkSearch, input[name="radiogroup-lastemployer"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  af) [#tlkPage, #tkSearch, input[name="radiogroup-educationlevel"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ag) [#tlkPage, #tkSearch, input[name="radiogroup-educationlevel"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ah) [#tlkPage, #tkSearch, input[name="radiogroup-educationlevel"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ai) [#tlkPage, #tkSearch, #facet-employers > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > .text[type="text"][autocomplete="off"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  aj) [#tlkPage, #tkSearch, input[name="radiogroup-employers"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ak) [#tlkPage, #tkSearch, input[name="radiogroup-employers"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  al) [#tlkPage, #tkSearch, input[name="radiogroup-employers"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  am) [#tlkPage, #tkSearch, #facet-compskills_boost > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > input[name=""][aria-autocomplete="list"][value=""]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  an) [#tlkPage, #tkSearch, input[name="radiogroup-compskills_boost"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ao) [#tlkPage, #tkSearch, input[name="radiogroup-compskills_boost"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ap) [#tlkPage, #tkSearch, input[name="radiogroup-compskills_boost"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  aq) [#tlkPage, #tkSearch, input[name="radiogroup-langskills_nf"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ar) [#tlkPage, #tkSearch, input[name="radiogroup-langskills_nf"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  as) [#tlkPage, #tkSearch, input[name="radiogroup-langskills_nf"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  at) [#tlkPage, #tkSearch, #facet-educationdirection > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > input[name=""][aria-autocomplete="list"][value=""]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  au) [#tlkPage, #tkSearch, input[name="radiogroup-educationdirection"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  av) [#tlkPage, #tkSearch, input[name="radiogroup-educationdirection"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  aw) [#tlkPage, #tkSearch, input[name="radiogroup-educationdirection"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ax) [#tlkPage, #tkSearch, #facet-educationinstitute > .expandable-box__body_is-collapsed.content.expandable-box__body > .tagcloud-input.row > .text[type="text"][autocomplete="off"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ay) [#tlkPage, #tkSearch, input[name="radiogroup-educationinstitute"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  az) [#tlkPage, #tkSearch, input[name="radiogroup-educationinstitute"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ba) [#tlkPage, #tkSearch, input[name="radiogroup-educationinstitute"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bb) [#tlkPage, #tkSearch, input[name="radiogroup-domain_cantype"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bc) [#tlkPage, #tkSearch, input[name="radiogroup-domain_cantype"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bd) [#tlkPage, #tkSearch, input[name="radiogroup-domain_cantype"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  be) [#tlkPage, #tkSearch, input[name="radiogroup-domain_canstatus"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bf) [#tlkPage, #tkSearch, input[name="radiogroup-domain_canstatus"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bg) [#tlkPage, #tkSearch, input[name="radiogroup-domain_canstatus"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bh) [#tlkPage, #tkSearch, #facet-candidate_tags_names > .expandable-box__body_is-expanded.content.expandable-box__body > .tagcloud-input.row > .text[type="text"][autocomplete="off"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bi) [#tlkPage, #tkSearch, #facet-candidate_tags_names > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bj) [#tlkPage, #tkSearch, #facet-candidate_tags_names > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bk) [#tlkPage, #tkSearch, #facet-candidate_tags_names > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bl) [#tlkPage, #tkSearch, #facet-candidate_tags_categories > .expandable-box__body_is-expanded.content.expandable-box__body > .tagcloud-input.row > .text[type="text"][autocomplete="off"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bm) [#tlkPage, #tkSearch, #facet-candidate_tags_categories > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bn) [#tlkPage, #tkSearch, #facet-candidate_tags_categories > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bo) [#tlkPage, #tkSearch, #facet-candidate_tags_categories > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bp) [#tlkPage, #tkSearch, .date-range > div > input[type="checkbox"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bq) [#tlkPage, #tkSearch, input[name="radiogroup-dateavailable"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  br) [#tlkPage, #tkSearch, input[name="radiogroup-dateavailable"][value="STRONGLY_FAVORED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bs) [#tlkPage, #tkSearch, input[name="radiogroup-dateavailable"][value="REQUIRED"][type="radio"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bt) [#tlkPage, #tkSearch, #searchtext]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bu) [#tlkPage, #tkSearch, input[data-value="\31 232_100"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bv) [#tlkPage, #tkSearch, input[data-value="\31 232_1000"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bw) [#tlkPage, #tkSearch, input[data-value="\31 232_1001"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bx) [#tlkPage, #tkSearch, input[data-value="\31 232_1002"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  by) [#tlkPage, #tkSearch, input[data-value="\31 232_1003"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  bz) [#tlkPage, #tkSearch, input[data-value="\31 232_1004"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ca) [#tlkPage, #tkSearch, input[data-value="\31 232_1005"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cb) [#tlkPage, #tkSearch, input[data-value="\31 232_1006"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cc) [#tlkPage, #tkSearch, input[data-value="\31 232_1007"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cd) [#tlkPage, #tkSearch, input[data-value="\31 232_101"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ce) [#tlkPage, #tkSearch, input[data-value="\31 232_1010"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cf) [#tlkPage, #tkSearch, input[data-value="\31 232_1011"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cg) [#tlkPage, #tkSearch, input[data-value="\31 232_1012"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ch) [#tlkPage, #tkSearch, input[data-value="\31 232_1013"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ci) [#tlkPage, #tkSearch, input[data-value="\31 232_1014"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cj) [#tlkPage, #tkSearch, input[data-value="\31 232_1015"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ck) [#tlkPage, #tkSearch, input[data-value="\31 232_1016"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cl) [#tlkPage, #tkSearch, input[data-value="\31 232_1018"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cm) [#tlkPage, #tkSearch, input[data-value="\31 232_1019"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  cn) [#tlkPage, #tkSearch, input[data-value="\31 232_102"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+7) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [#tlkPage, #tkSearch, #tab-domain_talentlink > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [#tlkPage, #tkSearch, #tab-linkedin > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) [#tlkPage, #tkSearch, #tab-xing > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  d) [#tlkPage, #tkSearch, #tab-stackoverflow > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  e) [#tlkPage, #tkSearch, #tab-github > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  f) [#tlkPage, #tkSearch, #tab-viadeo > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  g) [#tlkPage, #tkSearch, #tab-careerbuilder > a[href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  h) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(1) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  i) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(2) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  j) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(3) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  k) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(4) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  l) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(5) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  m) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(6) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  n) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(7) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  o) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(8) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  p) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(9) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  q) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(10) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  r) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(11) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  s) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(12) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  t) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(13) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  u) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(14) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  v) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(15) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  w) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(16) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  x) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(17) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  y) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(18) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  z) [#tlkPage, #tkSearch, .even.result.not-viewed:nth-child(19) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  aa) [#tlkPage, #tkSearch, .odd.result.not-viewed:nth-child(20) > .result-header.ui-helper-clearfix > .images.result__actions-bar > .stored-result[data-tooltip="Save\ result"][href="javascript:;"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+8) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+  b) [#tlkPage, #tkSearch, meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+9) Radio inputs with the same name attribute value must be part of a group: https://dequeuniversity.com/rules/axe/3.1/radiogroup?application=axeAPI
+  a) [#tlkPage, #tkSearch, input[name="radiogroup-documentdate"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-documentdate" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  b) [#tlkPage, #tkSearch, input[name="radiogroup-projectid"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-projectid" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  c) [#tlkPage, #tkSearch, input[name="radiogroup-lastjobtitle"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-lastjobtitle" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  d) [#tlkPage, #tkSearch, input[name="radiogroup-city"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-city" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  e) [#tlkPage, #tkSearch, input[name="radiogroup-country"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-country" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  f) [#tlkPage, #tkSearch, input[name="radiogroup-jobtitlesonlyrecent"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-jobtitlesonlyrecent" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  g) [#tlkPage, #tkSearch, input[name="radiogroup-experienceyears"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-experienceyears" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  h) [#tlkPage, #tkSearch, input[name="radiogroup-lastemployer"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-lastemployer" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  i) [#tlkPage, #tkSearch, input[name="radiogroup-educationlevel"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-educationlevel" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  j) [#tlkPage, #tkSearch, input[name="radiogroup-employers"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-employers" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  k) [#tlkPage, #tkSearch, input[name="radiogroup-compskills_boost"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-compskills_boost" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  l) [#tlkPage, #tkSearch, input[name="radiogroup-langskills_nf"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-langskills_nf" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  m) [#tlkPage, #tkSearch, input[name="radiogroup-educationdirection"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-educationdirection" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  n) [#tlkPage, #tkSearch, input[name="radiogroup-educationinstitute"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-educationinstitute" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  o) [#tlkPage, #tkSearch, input[name="radiogroup-domain_cantype"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-domain_cantype" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  p) [#tlkPage, #tkSearch, input[name="radiogroup-domain_canstatus"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-domain_canstatus" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  q) [#tlkPage, #tkSearch, #facet-candidate_tags_names > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-candidate_tags_names" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  r) [#tlkPage, #tkSearch, #facet-candidate_tags_categories > .expandable-box__body_is-expanded.content.expandable-box__body > .radiobuttons > .radios > input[value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-candidate_tags_categories" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+  s) [#tlkPage, #tkSearch, input[name="radiogroup-dateavailable"][value="FAVORED"][type="radio"]]
+    Fix any of the following:
+      All elements with the name "radiogroup-dateavailable" do not reference the same element with aria-labelledby
+      Element does not have a containing fieldset or ARIA group
+
+
+10) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

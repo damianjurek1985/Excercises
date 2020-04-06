@@ -1,0 +1,213 @@
+==========================================================
+2020-04-02T08:49:23+02:00
+Actual page: https://someLink/tlk/app/#/reporting/standard-and-analytics
+Found 8 accessibility violations:
+1) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+2) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__icon--left.tlk-nav__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [#messages > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  e) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [#tasks > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  g) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [#lastVisited > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  i) [#favourites > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  j) [#tlkPage, .active > .label]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  k) [#tlkPage, .listRowOut1:nth-child(8) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  l) [#tlkPage, .listRowOut1:nth-child(10) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  m) [#tlkPage, .listRowOut1:nth-child(12) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  n) [#tlkPage, .listRowOut1:nth-child(14) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  o) [#tlkPage, .listRowOut1:nth-child(16) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  p) [#tlkPage, .listRowOut1:nth-child(18) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  q) [#tlkPage, .listRowOut1:nth-child(20) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  r) [#tlkPage, .listRowOut1:nth-child(22) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  s) [#tlkPage, .listRowOut1:nth-child(24) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  t) [#tlkPage, .listRowOut1:nth-child(26) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  u) [#tlkPage, .listRowOut1:nth-child(31) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  v) [#tlkPage, .listRowOut1:nth-child(33) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  w) [#tlkPage, .listRowOut1:nth-child(35) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  x) [#tlkPage, .listRowOut1:nth-child(37) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  y) [#tlkPage, .listRowOut1:nth-child(39) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  z) [#tlkPage, .listRowOut1:nth-child(41) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aa) [#tlkPage, .listRowOut1:nth-child(43) > .ns23 > a]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ab) [#tlkPage, .tlk_footer]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+3) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) [#tlkPage]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+4) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [#tlkPage, img[height="\35 "]]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [#tlkPage, select]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+6) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+7) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+  b) [#tlkPage, #tlk-html]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+8) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

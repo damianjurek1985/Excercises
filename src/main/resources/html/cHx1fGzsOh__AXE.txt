@@ -1,0 +1,92 @@
+==========================================================
+2020-04-02T08:46:34+02:00
+Actual page: https://someLink/tlk/app/#/jobs/create
+Found 4 accessibility violations:
+1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-jw-navigation-panel__header__back-button > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-jw-navigation-panel__header__label > span]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [.material-icons[title="Guided\ tour"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [.tlk-step-selected > .tlk-job-creation-stepper__step__label-area > .tlk-job-creation-stepper__step__label-area__label]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  e) [.tlk-job-creation-stepper__step__label-area > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 13.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [.tlk-step-disabled.tlk-job-creation-stepper__step:nth-child(2) > .tlk-job-creation-stepper__step__path-area > .tlk-job-creation-stepper__step__path-area__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  g) [.tlk-step-disabled.tlk-job-creation-stepper__step:nth-child(3) > .tlk-job-creation-stepper__step__path-area > .tlk-job-creation-stepper__step__path-area__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  h) [.tlk-step-disabled.tlk-job-creation-stepper__step:nth-child(4) > .tlk-job-creation-stepper__step__path-area > .tlk-job-creation-stepper__step__path-area__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  i) [.tlk-job-wizard-section-card__header__subtitle]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.94 (foreground color: #878f97, background color: #f1f3f5, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  j) [.tlk-autocomplete-input__required-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.28 (foreground color: #fa5252, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  k) [.tlk17 > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.17 (foreground color: #dee2e6, background color: #f1f3f5, font size: 18.8pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  l) [.tlk-jw-info-text > span]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.32 (foreground color: #868e96, background color: #ffffff, font size: 9.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  m) [.tlk-organization-dropdown__required-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.28 (foreground color: #fa5252, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  n) [.mdl-button--raised > span]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.36 (foreground color: #ffffff, background color: #40c057, font size: 9.8pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+2) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+3) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+4) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

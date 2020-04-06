@@ -1,0 +1,153 @@
+==========================================================
+2020-04-02T08:50:15+02:00
+Actual page: https://someLink/tlk/app/#/reporting/referrals
+Found 7 accessibility violations:
+1) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+2) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__icon--left.tlk-nav__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [#messages > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  e) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [#tasks > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  g) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [#lastVisited > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  i) [#favourites > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  j) [#tlkPage, .active > .label]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  k) [#tlkPage, .tlk_footer]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+3) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) [#tlkPage]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+4) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [#tlkPage, select[name="filterOrganization"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  c) [#tlkPage, select[name="filterProgram"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  d) [#tlkPage, select[name="filterManager"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  e) [#tlkPage, select[name="filterStatus"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  f) [#tlkPage, .listpagenav]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+5) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+6) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+  b) [#tlkPage, #tlk-html]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+7) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

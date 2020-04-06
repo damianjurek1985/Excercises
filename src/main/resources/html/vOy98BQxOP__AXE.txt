@@ -1,0 +1,420 @@
+==========================================================
+2020-04-02T08:49:48+02:00
+Actual page: https://someLink/tlk/app/#/reporting/adhoc-reports
+Found 10 accessibility violations:
+1) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+2) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__icon--left.tlk-nav__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [#messages > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  e) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  f) [#tasks > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  g) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  h) [#lastVisited > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  i) [#favourites > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  j) [#tlkPage, .active > .label]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  k) [#tlkPage, #allTags]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.57 (foreground color: #17cca8, background color: #dee2e6, font size: 9.8pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  l) [#tlkPage, a[onclick="editReport\(40\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  m) [#tlkPage, a[href="javascript: runPreview(40)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  n) [#tlkPage, a[href="javascript: runReport(40)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  o) [#tlkPage, a[onclick="editReport\(49\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  p) [#tlkPage, a[href="javascript: runPreview(49)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  q) [#tlkPage, a[href="javascript: runReport(49)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  r) [#tlkPage, a[onclick="editReport\(19\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  s) [#tlkPage, a[ts="\31 585796983"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  t) [#tlkPage, a[href="javascript: runPreview(19)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  u) [#tlkPage, a[href="javascript: runReport(19)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  v) [#tlkPage, a[onclick="editReport\(18\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  w) [#tlkPage, a[ts="\31 585673343"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  x) [#tlkPage, a[href="javascript: runPreview(18)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  y) [#tlkPage, a[href="javascript: runReport(18)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  z) [#tlkPage, a[onclick="editReport\(14\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aa) [#tlkPage, a[href="javascript: runPreview(14)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ab) [#tlkPage, a[href="javascript: runReport(14)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ac) [#tlkPage, a[onclick="editReport\(13\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ad) [#tlkPage, a[href="javascript: runPreview(13)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ae) [#tlkPage, a[href="javascript: runReport(13)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  af) [#tlkPage, a[onclick="editReport\(21\)\;return\ false\;"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ag) [#tlkPage, a[href="javascript: runPreview(21)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ah) [#tlkPage, a[href="javascript: runReport(21)"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ai) [#tlkPage, .tlk_footer]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+3) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI
+  a) [#tlkPage, div[align="right"] > table > tbody > tr > td[colspan="\39 "][align="right"] > .listNavigation.listnavigationtable > tbody > tr[align="right"] > td:nth-child(1) > div]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+4) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) [#tlkPage]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [#tlkPage, #TagManagerLaunchButton40]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [#tlkPage, #TagManagerLaunchButton49]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) [#tlkPage, #TagManagerLaunchButton19]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  d) [#tlkPage, #TagManagerLaunchButton18]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  e) [#tlkPage, #TagManagerLaunchButton14]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  f) [#tlkPage, #TagManagerLaunchButton13]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  g) [#tlkPage, #TagManagerLaunchButton21]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+6) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [#tlkPage, div[align="right"] > table > tbody > tr > td[colspan="\39 "][align="right"] > .listNavigation.listnavigationtable > tbody > tr[align="right"] > td:nth-child(8) > select]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  c) [#tlkPage, .t3_pages_td > table > tbody > tr > td[colspan="\39 "][align="right"] > .listNavigation.listnavigationtable > tbody > tr[align="right"] > td:nth-child(8) > select]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+7) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [#tlkPage, .navBarIconBtn]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [#tlkPage, .listRowOut1:nth-child(3) > .listcell1[width="\33 5"] > a[data-title="Access\ Previous\ Extractions"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) [#tlkPage, .listRowOut1:nth-child(3) > .listcell1[width="\35 0"]:nth-child(8) > a[data-title="Delete"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  d) [#tlkPage, .listRowOut1:nth-child(4) > .listcell1[width="\33 5"] > a[data-title="Access\ Previous\ Extractions"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  e) [#tlkPage, .listRowOut1:nth-child(4) > .listcell1[width="\35 0"]:nth-child(8) > a[data-title="Delete"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  f) [#tlkPage, .listRowOut1:nth-child(5) > .listcell1[width="\35 0"]:nth-child(8) > a[data-title="Delete"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  g) [#tlkPage, .listRowOut1:nth-child(6) > .listcell1[width="\35 0"]:nth-child(8) > a[data-title="Delete"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  h) [#tlkPage, .listRowOut1:nth-child(7) > .listcell1[width="\35 0"]:nth-child(8) > a[data-title="Delete"][href="#"]]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+8) <ul> and <ol> must only directly contain <li>, <script> or <template> elements: https://dequeuniversity.com/rules/axe/3.1/list?application=axeAPI
+  a) [#tlkPage, .tagList]
+    Fix all of the following:
+      List element has direct children that are not allowed inside <li> elements
+
+
+9) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+10) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+  b) [#tlkPage, #tlk-html]
+    Fix all of the following:
+      Page must have a level-one heading
+

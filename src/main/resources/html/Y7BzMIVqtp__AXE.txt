@@ -1,0 +1,277 @@
+==========================================================
+2020-04-02T08:51:48+02:00
+Actual page: https://someLink/tlk/app/#/settings/user-management
+Found 10 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) [#tlkPage, #ui-id-1]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  b) [#tlkPage, #ui-id-2]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  c) [#tlkPage, #ui-id-3]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+3) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__icon--left.tlk-nav__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__text]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  e) [#messages > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  f) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [#tasks > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  h) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  i) [#lastVisited > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  j) [#favourites > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  k) [#tlkPage, #ui-id-1]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  l) [#tlkPage, .selectedAlphabet]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  m) [#tlkPage, a[name="InActive"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 9.0pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  n) [#tlkPage, a[title="Advanced\ Search"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  o) [#tlkPage, #yui-dt3-th-userFullName-liner > .yui-dt-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.59 (foreground color: #17cca8, background color: #e3e3e3, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  p) [#tlkPage, #yui-rec8 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  q) [#tlkPage, #yui-rec9 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  r) [#tlkPage, #yui-rec10 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  s) [#tlkPage, #yui-rec11 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  t) [#tlkPage, #yui-rec12 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  u) [#tlkPage, #yui-rec13 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  v) [#tlkPage, #yui-rec14 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  w) [#tlkPage, #yui-rec15 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  x) [#tlkPage, #yui-rec16 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  y) [#tlkPage, #yui-rec17 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  z) [#tlkPage, #yui-rec18 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aa) [#tlkPage, #yui-rec19 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ab) [#tlkPage, #yui-rec20 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ac) [#tlkPage, #yui-rec21 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ad) [#tlkPage, #yui-rec22 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ae) [#tlkPage, #yui-rec23 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  af) [#tlkPage, #yui-rec24 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ag) [#tlkPage, #yui-rec25 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ah) [#tlkPage, #yui-rec26 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ai) [#tlkPage, #yui-rec27 > .yui-dt3-col-userFullName.yui-dt-col-userFullName[headers="yui-dt3-th-userFullName\ "] > .yui-dt-liner > .columnLink.MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aj) [#tlkPage, .tlk_footer]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+4) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) [#tlkPage]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI
+  a) [#tlkPage, .dptNameLiveSearch]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+6) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [#tlkPage, #yui-pg0-0-jtp]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+7) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [#tlkPage, .linkOpenDepartments]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+8) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+9) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+  b) [#tlkPage, #tlk-html]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+10) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+

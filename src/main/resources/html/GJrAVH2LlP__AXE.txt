@@ -1,0 +1,536 @@
+==========================================================
+2020-04-02T08:50:39+02:00
+Actual page: https://someLink/tlk/app/#/settings/forms-and-questionnaires
+Found 7 accessibility violations:
+1) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI
+  a) [svg]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="title"
+
+
+2) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) [.tlk-search-input__search > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.93 (foreground color: #ffffff, background color: #2ed1b1, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  b) [.tlk-drawer__toggle > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  c) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__icon--left.tlk-nav__icon > .material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  d) [.tlk-nav__link--active.tlk-nav__link--disabled.tlk-nav__link > .tlk-nav__text]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  e) [#messages > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  f) [#messages > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  g) [#tasks > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  h) [#tasks > .tlk-notifications-button__count--active.tlk-notifications-button__count]
+    Fix any of the following:
+      Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #f03e3e, font size: 7.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  i) [#lastVisited > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  j) [#favourites > .tlk-notifications-button__icon.material-icons]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #ffffff, background color: #17cca8, font size: 18.0pt, font weight: normal). Expected contrast ratio of 3:1
+
+
+  k) [#tlkPage, #yui-dt24-th-form_name-liner > .yui-dt-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.59 (foreground color: #17cca8, background color: #e3e3e3, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  l) [#tlkPage, #yui-dt24-th-form_description-liner > .yui-dt-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.59 (foreground color: #17cca8, background color: #e3e3e3, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  m) [#tlkPage, #yui-dt24-th-form_comment-liner > .yui-dt-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.59 (foreground color: #17cca8, background color: #e3e3e3, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  n) [#tlkPage, a[href="yui-dt24-href-form_category"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.59 (foreground color: #17cca8, background color: #e3e3e3, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  o) [#tlkPage, #yui-dt24-th-result-liner > .yui-dt-label]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.59 (foreground color: #17cca8, background color: #e3e3e3, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  p) [#tlkPage, #yui-rec33 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  q) [#tlkPage, #yui-rec34 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  r) [#tlkPage, #yui-rec35 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  s) [#tlkPage, #yui-rec36 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  t) [#tlkPage, #yui-rec37 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  u) [#tlkPage, #yui-rec38 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  v) [#tlkPage, #yui-rec39 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  w) [#tlkPage, #yui-rec40 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  x) [#tlkPage, #yui-rec41 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  y) [#tlkPage, #yui-rec42 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  z) [#tlkPage, #yui-rec43 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aa) [#tlkPage, #yui-rec44 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ab) [#tlkPage, #yui-rec45 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ac) [#tlkPage, #yui-rec46 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ad) [#tlkPage, #yui-rec47 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ae) [#tlkPage, #yui-rec48 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  af) [#tlkPage, #yui-rec49 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ag) [#tlkPage, #yui-rec50 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ah) [#tlkPage, #yui-rec51 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.05 (foreground color: #17cca8, background color: #ffffff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  ai) [#tlkPage, #yui-rec52 > .yui-dt24-col-form_name.yui-dt-col-form_name[headers="yui-dt24-th-form_name\ "] > .yui-dt-liner > .MTDC_linkComponent[href="#"]]
+    Fix any of the following:
+      Element has insufficient color contrast of 1.71 (foreground color: #17cca8, background color: #eceaea, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+  aj) [#tlkPage, .tlk_footer]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+3) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) [#tlkPage]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+4) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
+  a) [input]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  b) [#tlkPage, select[name="organizationId"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  c) [#tlkPage, select[name="formType"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  d) [#tlkPage, select[name="masterLanguage"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  e) [#tlkPage, select[name="isArchived"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  f) [#tlkPage, #formToChoose_gaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  g) [#tlkPage, #formToChoose_haaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  h) [#tlkPage, #formToChoose_iaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  i) [#tlkPage, #formToChoose_jaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  j) [#tlkPage, #formToChoose_kaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  k) [#tlkPage, #formToChoose_laaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  l) [#tlkPage, #formToChoose_maaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  m) [#tlkPage, #formToChoose_naaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  n) [#tlkPage, #formToChoose_oaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  o) [#tlkPage, #formToChoose_paaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  p) [#tlkPage, #formToChoose_qaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  q) [#tlkPage, #formToChoose_raaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  r) [#tlkPage, #formToChoose_saaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  s) [#tlkPage, #formToChoose_taaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  t) [#tlkPage, #formToChoose_uaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  u) [#tlkPage, #formToChoose_vaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  v) [#tlkPage, #formToChoose_waaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  w) [#tlkPage, #formToChoose_xaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  x) [#tlkPage, #formToChoose_yaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  y) [#tlkPage, #formToChoose_zaaaaaa]
+    Fix all of the following:
+      Form element has multiple <label> elements
+
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  z) [#tlkPage, #yui-pg1-0-jtp]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  aa) [#tlkPage, select[name="moveSelectedFormTo"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+  ab) [#tlkPage, select[name="copySelectedFormTo"]]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Form element does not have an implicit (wrapped) <label>
+      Form element does not have an explicit <label>
+      Element has no title attribute or the title attribute is empty
+
+
+5) Zooming and scaling must not be disabled: https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI
+  a) [meta[name="viewport"]]
+    Fix any of the following:
+      user-scalable=no on <meta> tag disables zooming on mobile devices
+
+
+6) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+  b) [#tlkPage, #tlk-html]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+7) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) [#tlk-ui-top]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
