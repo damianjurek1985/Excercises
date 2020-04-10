@@ -1,0 +1,38 @@
+Main landmark must not be contained in another landmark - 1
+
+Images must have alternate text - 5
+
+Page must have one main landmark - 1
+
+Frames must have title attribute - 13
+
+id attribute value must be unique - 2
+
+Zooming and scaling must not be disabled - 17
+
+Checkbox inputs with the same name attribute value must be part of a group - 1
+
+Form elements must have labels - 16
+
+ARIA attributes must conform to valid values - 16
+
+Form elements should have a visible label - 1
+
+All page content must be contained by landmarks - 14
+
+Page must contain a level-one heading - 15
+
+Elements must have sufficient color contrast - 17
+
+Links must have discernible text - 7
+
+ARIA role must be appropriate for the element - 1
+
+IDs used in ARIA and labels must be unique - 1
+
+Elements must only use allowed ARIA attributes - 2
+
+Radio inputs with the same name attribute value must be part of a group - 1
+
+<ul> and <ol> must only directly contain <li>, <script> or <template> elements - 1
+

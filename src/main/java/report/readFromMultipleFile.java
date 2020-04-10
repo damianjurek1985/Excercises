@@ -7,6 +7,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class readFromMultipleFile {
     public static void main(String[] args) {
@@ -53,4 +59,48 @@ public class readFromMultipleFile {
             pw.close();
         }
     }
+
+
+
+
+
+
+//    private static void generateGlobalReport() {
+//
+//
+//
+//
+//        try (Stream<Path> walk = Files.walk(Paths.get(System.getProperty("user.dir") + "/integration-tests-ta-axe/target/surefire-reports/html/"))) {
+//            List<String> result = walk.map(Path::toString)
+//                    .filter(f -> f.endsWith("__AXE__.txt")).collect(Collectors.toList());
+//
+//
+//            result.forEach(System.out::println);
+//
+//
+//
+//            for (int i = 0; i <= result.size(); i++) {
+//                String fileName = result//file.getPath();
+//                BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
+//                System.out.println("File: " + fileName);
+//                //getting file contents
+//                String line = null;
+//
+//                File file1 = new File("GlobalReport.txt");
+//                FileWriter fileWriter = new FileWriter(file1, true);
+//                PrintWriter pw = new PrintWriter(fileWriter);
+//                while ((line = bufferedReader.readLine()) != null) {
+//                    System.out.println(line);
+//                    pw.println(line);
+//
+//                }
+//                System.out.println("===========================================");
+//                pw.close();
+//            }
+//
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
