@@ -39,7 +39,23 @@ public class RequestJson {
 
         Object obj = JSONValue.parse(jsonString);
         JSONObject jsonObject = (JSONObject) obj;
-        
-        System.out.println(jsonObject.get("rates{mid}"));
+
+        System.out.println(jsonString);
+        String txt = jsonObject.get("rates").toString();
+        int index = txt.indexOf("\"mid\":");
+        txt = txt.substring(index+6);
+        System.out.println(txt);
+        String result = "";
+        int i = 0;
+        while (true) {
+            if (txt.charAt(i) == ',' || txt.charAt(i) == '}') {
+                break;
+            }
+            result += txt.charAt(i);
+            i++;
+        }
+
+        System.out.println(result);
+
     }
 }
